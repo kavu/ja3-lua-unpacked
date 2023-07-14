@@ -1,0 +1,2 @@
+GridStats = {}
+SetupVarTable(GridStats, "GridStats.")

@@ -1,0 +1,35 @@
+UndefineClass("DocRobert")
+DefineClass.DocRobert = {
+  __parents = {"UnitData"},
+  __generated_by_class = "UnitDataCompositeDef",
+  object_class = "UnitData",
+  Health = 70,
+  Agility = 50,
+  Dexterity = 80,
+  Strength = 50,
+  Wisdom = 90,
+  Leadership = 0,
+  Marksmanship = 50,
+  Mechanical = 0,
+  Explosives = 0,
+  Medical = 90,
+  Portrait = "UI/NPCsPortraits/DocRobert",
+  BigPortrait = "UI/NPCs/DocRobert",
+  Name = T(886403581998, "Painless Doc Robert"),
+  Randomization = true,
+  Affiliation = "Other",
+  ImportantNPC = true,
+  neutral_retaliate = true,
+  archetype = "Skirmisher",
+  MaxAttacks = 2,
+  RewardExperience = 0,
+  MaxHitPoints = 60,
+  AppearancesList = {
+    PlaceObj("AppearanceWeight", {"Preset", "DocRobert"})
+  },
+  Equipment = {"DocRobert"},
+  pollyvoice = "Russell",
+  gender = "Male",
+  PersistentSessionId = "NPC_DocRobert",
+  VoiceResponseId = "DocRobert"
+}
